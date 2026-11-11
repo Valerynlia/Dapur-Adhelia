@@ -1,0 +1,16 @@
+Taruh gambar di folder ini.
+
+Gambar cerita slideshow (tidak perlu diganti nama):
+Story 1.jpg sampai Story 7.jpg
+
+Gambar lain (ganti nama sesuai tabel: nama baru <- file asli):
+logo.png          <- Logo.png
+promo-eid.jpg     <- Promo EID .jpg
+promo-newyear.jpg <- Promo NewYear.jpg
+produk.jpg        <- Macam2 Produk.jpg
+instagram.jpg     <- Medsos Instagram.jpg
+tiktok.jpg        <- Medsos Tiktok.jpg
+store-front.jpg   <- FrontDesain Main Store.jpg
+store-mini.jpg    <- Desain Mini Store .jpg
+store-layout.jpg  <- Store Layout.jpg
+seragam.jpg       <- Seragam Dapur & Kasir.jpg

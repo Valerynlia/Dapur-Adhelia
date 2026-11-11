@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dapur Adhelia | Artisan Cookies, Brownies & Fine Snacks</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head><body>
+<div class="promo-bar">Promo Lebaran &amp; Tahun Baru 2027: lihat paket hamper spesial kami</div>
+<header class="top">
+  <a href="#/" class="brand"><img src="images/logo.png" alt="Logo"><span>Dapur Adhelia</span></a>
+  <nav id="nav">
+    <a href="#/" data-p="home">Beranda</a><a href="#/produk" data-p="produk">Produk</a>
+    <a href="#/hamper" data-p="hamper">Hamper</a><a href="#/tentang" data-p="tentang">Tentang</a>
+    <a href="#/kontak" data-p="kontak">Kontak</a>
+  </nav>
+  <button class="cartbtn" id="openCart" aria-label="Buka keranjang">Keranjang <b id="cartCount">0</b></button>
+  <button class="burger" id="burger" aria-label="Menu">&#9776;</button>
+</header>
+
+<main>
+<!-- BERANDA -->
+<section class="page" data-page="home">
+  <div class="slider" id="slider">
+    <div class="slides" id="slides"></div>
+    <button class="sn prev" aria-label="Sebelumnya">&#10094;</button><button class="sn next" aria-label="Berikutnya">&#10095;</button>
+    <div class="dots" id="dots"></div>
+  </div>
+  <ul class="trust"><li>Bahan premium</li><li>Jar eksklusif</li><li>Cocok untuk hadiah</li><li>Pesan via WhatsApp</li></ul>
+
+  <div class="wrap"><h2>Belanja per kategori</h2><div class="cats" id="homeCats"></div></div>
+  <div class="wrap"><div class="head"><h2>Produk terlaris</h2><a href="#/produk" class="link">Lihat semua</a></div><div class="grid" id="best"></div></div>
+
+  <div class="wrap"><div class="banner">
+    <div><h2>Hamper untuk momen spesial</h2><p>Dari paket Harmoni sampai Mewah Nusantara, lengkap dengan kartu ucapan dan kemasan cantik.</p><a href="#/hamper" class="btn">Lihat hamper</a></div>
+    <img src="images/promo-eid.jpg" alt="Promo Lebaran">
+  </div></div>
+
+  <div class="wrap"><h2>Kenapa Dapur Adhelia?</h2>
+    <div class="why">
+      <div><h3>Dibuat dengan cinta</h3><p>Setiap resep dikerjakan dengan takaran dan bahan terpilih.</p></div>
+      <div><h3>Kemasan siap hadiah</h3><p>Jar eksklusif yang rapi, aman, dan enak dipandang.</p></div>
+      <div><h3>Banyak pilihan rasa</h3><p>Manis, gurih, sampai pedas, ada 18 produk untuk dipilih.</p></div>
+      <div><h3>Pesan mudah</h3><p>Pilih produk, kirim keranjang ke WhatsApp, selesai.</p></div>
+    </div></div>
+
+  <div class="wrap"><h2>Galeri</h2><div class="gallery" id="gallery"></div></div>
+
+  <div class="wrap"><h2>Kata pelanggan</h2><div class="testi" id="testi"></div>
+    <p class="note">Catatan: testimoni di atas adalah contoh (dummy) untuk keperluan tugas.</p></div>
+
+  <div class="wrap"><h2>Pertanyaan umum</h2><div class="faq" id="faq"></div></div>
+</section>
+
+<!-- PRODUK -->
+<section class="page" data-page="produk"><div class="wrap">
+  <h1>Semua produk</h1>
+  <div class="tools">
+    <input type="search" id="q" placeholder="Cari produk, misal nastar..." aria-label="Cari produk">
+    <select id="sort" aria-label="Urutkan"><option value="def">Urutan default</option><option value="asc">Harga terendah</option><option value="desc">Harga tertinggi</option><option value="az">Nama A-Z</option></select>
+  </div>
+  <div class="chips" id="chips"></div>
+  <p id="count" class="note"></p>
+  <div class="grid" id="grid"></div>
+</div></section>
+
+<!-- HAMPER -->
+<section class="page" data-page="hamper"><div class="wrap">
+  <h1>Paket hamper</h1><p class="lead">Pilihan hadiah untuk Lebaran, Tahun Baru, dan momen penting lainnya.</p>
+  <div class="grid" id="hamperGrid"></div>
+  <div class="banner" style="margin-top:30px"><img src="images/promo-newyear.jpg" alt="Promo Tahun Baru 2027"><div><h2>Promo Tahun Baru 2027</h2><p>Awali tahun dengan paket hamper spesial. Hubungi kami untuk detail dan ketersediaan.</p></div></div>
+</div></section>
+
+<!-- TENTANG -->
+<section class="page" data-page="tentang"><div class="wrap">
+  <h1>Tentang Dapur Adhelia</h1>
+  <p class="lead">Dapur Adhelia adalah brand kue kering, brownies, dan camilan gurih khas Indonesia yang dikemas premium. Tagline kami: <em>Crafted with Love &amp; Quality</em>.</p>
+  <div class="split"><img src="images/store-front.jpg" alt="Tampak depan toko"><div><h2>Toko kami</h2><p>Konsep toko dibuat hangat dan elegan dengan rak kayu, pencahayaan lembut, dan display jar yang mudah dipilih pembeli.</p></div></div>
+  <div class="split rev"><img src="images/store-layout.jpg" alt="Layout dalam toko"><div><h2>Tata letak toko</h2><p>Produk dikelompokkan per kategori sehingga pengunjung cepat menemukan yang dicari, sama seperti struktur menu di website ini.</p></div></div>
+  <div class="split"><img src="images/seragam.jpg" alt="Seragam staf"><div><h2>Tim kami</h2><p>Staf dapur dan kasir memakai seragam yang rapi dan seragam warnanya mengikuti identitas brand.</p></div></div>
+  <h2>Ikuti kami</h2>
+  <div class="grid2"><img src="images/instagram.jpg" alt="Instagram Dapur Adhelia"><img src="images/tiktok.jpg" alt="TikTok Dapur Adhelia"></div>
+</div></section>
+
+<!-- KONTAK -->
+<section class="page" data-page="kontak"><div class="wrap narrow">
+  <h1>Hubungi kami</h1>
+  <p class="lead">WhatsApp 0812-3456-7890 &middot; www.dapuradhelia.co.id &middot; @dapuradhelia</p>
+  <form id="form">
+    <label>Nama<input id="fn" required></label>
+    <label>Pesan<textarea id="fm" rows="5" required placeholder="Tulis pertanyaan atau pesanan kamu"></textarea></label>
+    <button class="btn" type="submit">Kirim lewat WhatsApp</button>
+  </form>
+</div></section>
+</main>
+
+<footer><div class="wrap foot">
+  <div><h3>Dapur Adhelia</h3><p>Artisan Cookies, Brownies &amp; Fine Snacks.</p></div>
+  <div><h3>Menu</h3><p><a href="#/produk">Produk</a><br><a href="#/hamper">Hamper</a><br><a href="#/tentang">Tentang</a></p></div>
+  <div><h3>Pesan</h3><p>0812-3456-7890<br>@dapuradhelia</p></div>
+</div><p class="copy">&copy; 2026 Dapur Adhelia &middot; Tugas Arsitektur Informasi</p></footer>
+
+<!-- KERANJANG -->
+<div class="overlay" id="overlay"></div>
+<aside class="drawer" id="drawer" aria-label="Keranjang">
+  <div class="dh"><h2>Keranjang</h2><button id="closeCart" aria-label="Tutup">&times;</button></div>
+  <div id="items"></div>
+  <div class="df"><div class="total"><span>Total</span><b id="total">Rp 0</b></div>
+  <button class="btn full" id="checkout">Pesan lewat WhatsApp</button></div>
+</aside>
+<div class="toast" id="toast"></div>
+<script src="script.js"></script>
+</body></html>
